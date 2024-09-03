@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
  const Sidebar = () => {
   return (
-    <div className=' min-w-60 h-screen border-x border-y border-blue-400 p-2'>
+    <div className=' min-w-60 h-screen border-x border-blue-400 p-2'>
         <ul className='flex flex-col gap-1 text-blue-400'>
-            <li><NavLink to="todo" className={({isActive}) => `${isActive? "text-blue-200 font-semibold" : "text-blue-400"}`}> Todo </NavLink> </li>
+            <li><NavLink to="todo" className={({isActive}) => `${isActive? "text-blue-200 font-semibold" : "text-blue-400"}`}> Basic Todo </NavLink> </li>
 
             <li><NavLink to="currency" className={({isActive}) => `${isActive? "text-blue-200 font-semibold" : "text-blue-400"}`}> Currency Converter</NavLink> </li>
 

@@ -7,12 +7,12 @@ function Layout() {
     <>
         <Header />
 
-        <div className='flex'>
+        <div className='flex border-x border-blue-400'>
           <Sidebar />
           <Outlet />
         </div>
         
-        {/* <Footer /> */}
+        <Footer />
     </>
   )
 }
